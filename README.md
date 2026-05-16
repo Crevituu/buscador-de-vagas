@@ -50,7 +50,7 @@ skillmatch-js/
 | Objeto literal                   | `candidato`                                                     |
 | Array de objetos                 | `vagas`                                                         |
 | Tipos de dados                   | strings, numbers, booleans, arrays                              |
-| `const` e `let`                  | em todo o código (`var` não é usado — ver nota abaixo)          |
+| `const` e `let`                  | em todo o código (`var` não é usado - ver nota abaixo)          |
 | `if-else`                        | `classificarCompatibilidade`                                    |
 | Operadores lógicos e matemáticos | cálculo de percentual                                           |
 | `for` implícito via métodos      | `map`, `filter`, `reduce`, `find`, `every`, `forEach`           |
