@@ -50,7 +50,7 @@ skillmatch-js/
 | Objeto literal                   | `candidato`                                                     |
 | Array de objetos                 | `vagas`                                                         |
 | Tipos de dados                   | strings, numbers, booleans, arrays                              |
-| `const` e `let`                  | em todo o código (`var` não é usado - ver nota abaixo)          |
+| `const` e `let`                  | utilizados em todo o código (var não utilizado)                 |
 | `if-else`                        | `classificarCompatibilidade`                                    |
 | Operadores lógicos e matemáticos | cálculo de percentual                                           |
 | `for` implícito via métodos      | `map`, `filter`, `reduce`, `find`, `every`, `forEach`           |
@@ -80,7 +80,7 @@ skillmatch-js/
 
 ## Como a internet funciona (resumo)
 
-Quando você acessa um site, seu navegador (cliente) envia uma **requisição HTTP** para um servidor remoto. O servidor processa e devolve uma **resposta** — geralmente HTML, CSS e JavaScript. Essa troca segue o modelo **cliente-servidor**: o cliente solicita, o servidor responde.
+Quando você acessa um site, seu navegador (cliente) envia uma **requisição HTTP** para um servidor remoto. O servidor processa e devolve uma **resposta** geralmente HTML, CSS e JavaScript. Essa troca segue o modelo **cliente-servidor**: o cliente solicita, o servidor responde.
 
 No SkillMatch JS, a função `buscarVagasSimuladas()` imita essa espera com `setTimeout` e uma `Promise`, simulando o tempo que um servidor levaria para responder com a lista de vagas.
 
