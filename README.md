@@ -20,13 +20,13 @@ O **SkillMatch JS** compara as habilidades de uma pessoa candidata com os requis
 
 Este projeto **não precisa de Node.js ou instalação**.
 
-### Opção 1 — VS Code com extensão
+### Opção 1 - VS Code com extensão
 
 1. Instale a extensão **Code Runner** (`formulahendry.code-runner`).
 2. Abra o arquivo `skillmatch.js`.
 3. Pressione `Ctrl + Alt + N` para executar.
 
-### Opção 2 — Ambiente online
+### Opção 2 - Ambiente online
 
 Acesse [jsfiddle.net](https://jsfiddle.net) ou [playcode.io](https://playcode.io), cole o código e execute.
 
@@ -112,7 +112,7 @@ No projeto, `buscarVagasSimuladas()` retorna uma `Promise` que resolve após 1 s
 
 ---
 
-## Versionamento — Branches utilizadas
+## Versionamento - Branches utilizadas
 
 | Branch               | Objetivo                    |
 | -------------------- | --------------------------- |
@@ -131,7 +131,7 @@ No projeto, `buscarVagasSimuladas()` retorna uma `Promise` que resolve após 1 s
   3 vagas carregadas com sucesso!
 
 ═══════════════════════════════════════════════════════
-        SkillMatch JS — Análise de Vagas
+        SkillMatch JS - Análise de Vagas
 ═══════════════════════════════════════════════════════
  Candidato : Cleviton
  Área      : Front-End
@@ -139,7 +139,7 @@ No projeto, `buscarVagasSimuladas()` retorna uma `Promise` que resolve após 1 s
  Experiência: 3 meses
 
 ───────────────────────────────────────────────────────
- Análise nº 1 — [1] Desenvolvedor Front-End Júnior · TechStart
+ Análise nº 1 - [1] Desenvolvedor Front-End Júnior - TechStart
    Nível da vaga: Júnior
    Compatibilidade : 100%
    Classificação   : Alta compatibilidade
@@ -147,7 +147,7 @@ No projeto, `buscarVagasSimuladas()` retorna uma `Promise` que resolve após 1 s
    ✘ Faltantes    : nenhuma
 ...
   Vaga mais compatível:
-   TechStart — Desenvolvedor Front-End Júnior
+   TechStart - Desenvolvedor Front-End Júnior
    Compatibilidade: 100%
 
   Recomendação de estudo:
@@ -158,5 +158,5 @@ No projeto, `buscarVagasSimuladas()` retorna uma `Promise` que resolve após 1 s
 
 ## Autoria
 
-Projeto desenvolvido como **Mini-Projeto Avaliativo — Módulo 01 · Semana 06**  
-Curso: Desenvolvedor(a) Front-End [React] · Turmas T1 e T2
+Projeto desenvolvido como **Mini-Projeto Avaliativo (Semana 06)**  
+Curso: Carreira Tech - Trilha Desenvolvimento de Software
