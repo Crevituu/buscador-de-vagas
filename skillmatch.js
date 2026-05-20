@@ -106,15 +106,15 @@ const classificarCompatibilidade = (percentual) => {
 // ─────────────────────────────────────────────────────────────
 // RF03 + RF05 – Analisar uma vaga (calcula %, faltantes)
 // ─────────────────────────────────────────────────────────────
-const analisarVaga = (vaga, habilidadesDoCanditato) => {
+const analisarVaga = (vaga, habilidadesDoCandidato) => {
   // RF08 – filter: habilidades que o candidato tem e a vaga pede
   const habilidadesEncontradas = vaga.requisitos.filter((req) =>
-    habilidadesDoCanditato.includes(req),
+    habilidadesDoCandidato.includes(req),
   );
 
   // RF08 – filter: habilidades que faltam
   const habilidadesFaltantes = vaga.requisitos.filter(
-    (req) => !habilidadesDoCanditato.includes(req),
+    (req) => !habilidadesDoCandidato.includes(req),
   );
 
   // RF03 – cálculo do percentual
